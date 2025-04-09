@@ -17,7 +17,7 @@ app.post('/api',(req,res)=>{
 
 app.delete('/api/:ID',(req,res)=>{
     console.log(req.params)
-    res.status(200).send(`this id requested id`)
+    res.status(200).send(`this is requested id`)
 })
 
 app.put('/api/:ID',(req,res)=>{
